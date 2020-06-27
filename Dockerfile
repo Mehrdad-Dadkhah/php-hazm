@@ -3,6 +3,7 @@ FROM mehrdadkhah/php7:ffmpeg
 MAINTAINER Mehrdad Dadkhah <mehrdad@dadkhah.me>
 
 RUN apt-get update && apt-get install -y \
+    gnupg2 \
     python \
     python-pip \
     python3-pip
